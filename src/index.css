@@ -56,23 +56,17 @@ body {
 
 /* ============ Header ============ */
 .header {
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the logo */
+  justify-content: center;
   width: 100%;
 }
 
-.logo-block {
-  background: #ffffff;
-  color: #000000;
-  padding: 6px 16px;
-  font-size: 1.4rem;
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  display: inline-block;
-  line-height: 1;
+.header__logo-img {
+  height: 48px; /* Medium size */
+  width: auto;
+  display: block;
 }
 
 /* ============ Hero Section ============ */
