@@ -160,6 +160,38 @@ body {
   margin-bottom: 48px;
 }
 
+.contact-info {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  animation: fadeUp 0.9s var(--ease) 0.5s both;
+}
+
+.contact-info__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all var(--t-normal) var(--ease);
+}
+
+.contact-info__link svg {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.contact-info__link:hover {
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.contact-info__link:hover svg {
+  opacity: 1;
+}
+
 /* ============ Notify Card ============ */
 .notify-card {
   background: var(--card-bg);
@@ -267,7 +299,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Centered copyright */
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
