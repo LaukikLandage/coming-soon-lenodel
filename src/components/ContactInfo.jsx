@@ -1,7 +1,7 @@
 export default function ContactInfo() {
   return (
-    <div className="contact-info">
-      <a href="mailto:work@lenodellabs.com" className="contact-info__link">
+    <div className="contact-row">
+      <a href="mailto:work@lenodellabs.com" className="contact-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
           <polyline points="22,6 12,13 2,6" />
@@ -9,17 +9,29 @@ export default function ContactInfo() {
         work@lenodellabs.com
       </a>
       <a
-        href="https://www.instagram.com/lenodellabs.com_/"
+        href="https://www.instagram.com/lenodellabs"
         target="_blank"
         rel="noopener noreferrer"
-        className="contact-info__link"
+        className="contact-item"
       >
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
           <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
           <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
         </svg>
-        @lenodellabs.com_
+        @lenodellabs
+      </a>
+      <a
+        href="https://instagram.com/lenodellabs"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-item"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+        </svg>
+        lenodellabs
       </a>
     </div>
   );
